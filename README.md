@@ -1,5 +1,9 @@
 # nvme-cli
-NVM-Express user space tooling for Linux.
+The project is forked from https://github.com/linux-nvme/nvme-cli
+In the project, Transcend plugin was added for Transcend SSD.
+Find related commands in nvme-cli/plugins/transcend .
+
+NVM-Express user space tooling for Linux. 
 
 To install, run:
 
