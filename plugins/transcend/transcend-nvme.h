@@ -11,6 +11,7 @@ PLUGIN(NAME("transcend", "Transcend vendor specific extensions"),
     COMMAND_LIST(
 			ENTRY("healthvalue", "NVME health percentage", getHealthValue)
 			ENTRY("badblock", "Get NVME bad block number", getBadblock)
+			ENTRY("wai", "Get NVME write amplification index", getWAI)
  
     )
 );
